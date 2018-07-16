@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name') }}</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Lato" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
     @env('production')
         <script src="/dist/styles.css"></script>
     @endenv
