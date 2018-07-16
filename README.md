@@ -1,4 +1,4 @@
-# Laravel React Typescript Boilerplate / Starter Kit
+# Laravel React Typescript Boilerplate
 
 An opinionated boilerplate based on Laravel 5.6, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack, laravel configuration files.
 
@@ -60,7 +60,10 @@ If you fix these, submitting a PR or Issue with the code would be appreciated.
 
 ## Credits
 To all the contributors to the software used.
-[My personal Twitter](https://twitter.com/grmcameron). Feel free to tweet me with suggestions.
+
+[My personal Twitter](https://twitter.com/grmcameron). 
+
+Feel free to tweet me with suggestions.
 
 ## License
 #### MIT License:
