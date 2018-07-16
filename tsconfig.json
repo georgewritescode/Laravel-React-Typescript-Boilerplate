@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+        "module": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noEmit": false,
+        "noUnusedLocals": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "outDir": "build",
+        "lib": ["es6", "es7", "dom"],
+        "rootDir": "./frontend",
+        "baseUrl": "./frontend"
+    },
+    "exclude": ["public", "dist", "build", "node_modules", "vendor"]
+}

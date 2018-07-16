@@ -1,6 +1,18 @@
 <?php
 
 return [
+    /*
+    |--------------------------------------------------------------------------
+    | Admin Emails
+    |--------------------------------------------------------------------------
+    |
+    | Users with an email that is also in the array below will be able to pass 
+    | through routes with the 'admin' middleware
+    |
+    */
+    'admins' => [
+        'admin@mail.com'
+    ],
 
     /*
     |--------------------------------------------------------------------------
