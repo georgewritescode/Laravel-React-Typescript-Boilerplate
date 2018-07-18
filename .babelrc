@@ -1,5 +1,7 @@
 {
     "plugins": [
+        "transform-decorators",
+		"transform-class-properties",
         ["import", { "libraryName": "antd", "style": true }],
         ["emotion", { "sourceMap": true, "autoLabel": true }]
     ]
