@@ -54,9 +54,8 @@ To use your built files you must set your Larave APP_ENV to production.
 
 ## Work in Progress
 If you fix these, submitting a PR or Issue with the code would be appreciated.
-* Tailwind CSS requires bringing in an external script in app.blade.php.
 * Purge CSS or UnCSS integration, I have made a start on Purge CSS.
-    * This must take into account Ant Design.
+    * This must take into account Ant Design which is imported via .babelrc.
 
 ## Credits
 To all the contributors to the software used.

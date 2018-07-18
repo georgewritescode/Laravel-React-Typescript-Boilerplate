@@ -89,15 +89,6 @@ module.exports = {
                     fallback: "style-loader",
                     use: [
                         {
-                            loader: "css-loader",
-                            query: {
-                                modules: true,
-                                sourceMap: !isProduction,
-                                importLoaders: 1,
-                                localIdentName: "[local]__[hash:base64:5]"
-                            }
-                        },
-                        {
                             loader: "postcss-loader",
                             options: {
                                 ident: "postcss",
@@ -107,6 +98,7 @@ module.exports = {
                                     }),
                                     require("tailwindcss")("./tailwind.js"),
                                     require("postcss-url")(),
+                                    require('postcss-nested')(),
                                     require("postcss-cssnext")(),
                                     require("postcss-reporter")({
                                         clearReportedMessages: true
