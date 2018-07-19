@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "transform-decorators",
-		"transform-class-properties",
+        "react-hot-loader/babel",
         ["import", { "libraryName": "antd", "style": true }],
         ["emotion", { "sourceMap": true, "autoLabel": true }]
     ]
