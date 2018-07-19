@@ -18,6 +18,7 @@ An opinionated boilerplate based on Laravel 5.6, React 16 and Typescript empower
 * [FontAwesome 5](http://fontawesome.io/icons/)
 * [Laravel CRUD Generator](https://github.com/appzcoder/crud-generator)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
+* [Log Viewer - viewable at /log-viewer (protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 * Admin Middleware (See Below)
 
 ## Notes:
