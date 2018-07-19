@@ -21,6 +21,8 @@ An opinionated boilerplate based on Laravel 5.6, React 16 and Typescript empower
 * [Log Viewer - viewable at /log-viewer (protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 * Admin Middleware (See Below)
 
+![](https://i.imgur.com/lgkhnc2.jpg)
+
 ## Notes:
 #### Admin Middleware
 

@@ -45,7 +45,7 @@ module.exports = {
                 use: isProduction
                     ? "ts-loader"
                     : [
-                          "babel-loader?plugins=react-hot-loader/babel",
+                          "babel-loader",
                           "ts-loader"
                       ]
             },

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button, notification } from "antd";
 import { css } from "emotion";
+import { observer, inject } from "mobx-react";
 
 const openNotificationWithIcon = type => {
     notification[type]({
@@ -8,7 +9,9 @@ const openNotificationWithIcon = type => {
     });
 };
 
-export class Page extends Component {
+@inject("RootStore")
+@observer
+export class Page extends Component<any, any> {
     componentDidMount() {
         openNotificationWithIcon("info");
     }
@@ -18,18 +21,18 @@ export class Page extends Component {
                 <h1>Laravel React Typescript Boilerplate</h1>
 
                 <a href="https://twitter.com/grmcameron" target="_blank">
-                    <h4>by George</h4>
+                    <h4>by {this.props.RootStore.user.name}</h4>
                 </a>
 
-                <div className={"bg-black text-white p-4 m-t-12"}>
+                <div className={"bg-blue-dark text-white p-4 mt-4"}>
                     <p>
                         If you are seeing this then you have successfully
                         installed all dependencies and Hot Module Reloading
                         should work!
                     </p>
                     <p>
-                        Give it a go by editing Page.tsx. Why not change my name
-                        to yours?
+                        Everything is ready for you to dive in. Why not change my name
+                        to yours? (Hint: you'll have to edit the mobx store)
                     </p>
                 </div>
             </div>
