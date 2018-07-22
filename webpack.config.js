@@ -96,10 +96,11 @@ module.exports = {
                                     require("postcss-import")({
                                         addDependencyTo: webpack
                                     }),
-                                    require("tailwindcss")("./tailwind.js"),
                                     require("postcss-url")(),
+                                    require('postcss-simple-vars')(),
                                     require('postcss-nested')(),
                                     require("postcss-cssnext")(),
+                                    require("tailwindcss")("./tailwind.js"),
                                     require("postcss-reporter")({
                                         clearReportedMessages: true
                                     })
