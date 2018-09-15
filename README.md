@@ -1,6 +1,6 @@
 # Laravel React Typescript Boilerplate
 
-An opinionated boilerplate based on Laravel 5.6, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack, laravel configuration files.
+An opinionated boilerplate based on Laravel 5.6, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack and laravel configuration files. Do you need everything listed below? Likely not, you probably don't need a couple of items included. However, I've always found that it is a lot easier to remove things or not use things compared to adding and configuring them to work with everything else (especially specific webpack versions). 
 
 ## Included:
 * Laravel 5.6
