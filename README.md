@@ -1,6 +1,6 @@
 # Laravel React Typescript Boilerplate
 
-An opinionated boilerplate based on Laravel 5.7, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack and laravel configuration files. Do you need everything listed below? Likely not, you probably don't need a couple of items included. However, I've always found that it is a lot easier to remove things or not use things compared to adding and configuring them to work with everything else (especially specific webpack versions). 
+An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack and laravel configuration files. Do you need everything listed below? Likely not, you probably don't need a couple of items included. However, I've always found that it is a lot easier to remove things or not use things compared to adding and configuring them to work with everything else (especially specific webpack versions). 
 
 ## Included:
 * Laravel 5.7
@@ -15,7 +15,6 @@ An opinionated boilerplate based on Laravel 5.7, React 16 and Typescript empower
 * [TailwindCSS](https://tailwindcss.com/docs/what-is-tailwind/)
 * [Ant Design](https://ant.design/docs/react/introduce)
 * [FontAwesome 5](http://fontawesome.io/icons/)
-* [Laravel CRUD Generator](https://github.com/appzcoder/crud-generator)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
 * [Log Viewer - viewable at /log-viewer (protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 * Admin Middleware (See Below)

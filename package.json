@@ -1,7 +1,7 @@
 {
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "webpack-dev-server --mode development --hot --progress --colors",
+        "dev": "webpack-dev-server --disable-host-check --mode development --hot --progress --colors",
         "production": "./node_modules/.bin/webpack -p --mode production --progress --colors",
         "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
     },
@@ -9,13 +9,13 @@
     "devDependencies": {
         "@babel/core": "^7.0.0-beta.52",
         "@babel/plugin-proposal-decorators": "^7.0.0-beta.54",
-        "@types/extract-text-webpack-plugin": "^3.0.3",
         "@babel/preset-env": "^7.0.0-beta.52",
         "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
         "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
         "@fortawesome/react-fontawesome": "0.1.0-11",
         "@types/axios": "^0.14.0",
         "@types/classnames": "^2.2.3",
+        "@types/extract-text-webpack-plugin": "^3.0.3",
         "@types/lodash": "^4.14.111",
         "@types/node": "^9.4.6",
         "@types/react": "^16.8.17",
@@ -58,10 +58,11 @@
         "webpack": "^4.0.1",
         "webpack-cleanup-plugin": "^0.5.1",
         "webpack-cli": "^2.1.5",
-        "webpack-dev-server": "^3.1.0",
+        "webpack-dev-server": "^3.3.1",
         "webpack-hot-middleware": "^2.21.1"
     },
     "dependencies": {
+        "@hot-loader/react-dom": "^16.8.6",
         "axios": "^0.18.0",
         "classnames": "^2.2.5",
         "emotion": "^9.2.5",

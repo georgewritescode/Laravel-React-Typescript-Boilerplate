@@ -17,7 +17,7 @@ const PurgecssPlugin = require("purgecss-webpack-plugin");
 module.exports = {
     context: sourcePath,
     entry: {
-        main: "./app.tsx"
+        main: ["./app.tsx"]
     },
     output: {
         path: outPath,
@@ -35,7 +35,8 @@ module.exports = {
             app: path.resolve(__dirname, "frontend/"),
             components: path.resolve(__dirname, "frontend/components/"),
             contexts: path.resolve(__dirname, "frontend/contexts/"),
-            types: path.resolve(__dirname, "frontend/types/")
+            types: path.resolve(__dirname, "frontend/types/"),
+            'react-dom': '@hot-loader/react-dom',
         }
     },
     module: {
