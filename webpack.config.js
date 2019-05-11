@@ -2,7 +2,7 @@ var webpack = require("webpack");
 var path = require("path");
 var fs = require("fs");
 // variables
-var isProduction = process.argv.indexOf("-p") >= 0;
+var isProduction = process.argv.indexOf("production") >= 0;
 var sourcePath = path.join(__dirname, "./frontend");
 var outPath = path.join(__dirname, "./public/dist");
 var hostPort = 3333;
@@ -10,6 +10,9 @@ var hostPort = 3333;
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var WebpackCleanupPlugin = require("webpack-cleanup-plugin");
 const ErrorOverlayPlugin = require("error-overlay-webpack-plugin");
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const TerserJSPlugin = require('terser-webpack-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const glob = require("glob-all");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
@@ -18,7 +21,9 @@ module.exports = {
     context: sourcePath,
     entry: {
         main: ["./app.tsx"]
-    },
+    }, optimization: {
+        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+      },
     output: {
         path: outPath,
         filename: "bundle.js",
@@ -43,10 +48,8 @@ module.exports = {
         rules: [
             // .ts, .tsx
             {
-                test: /\.tsx?$/,
-                use: isProduction
-                    ? "ts-loader"
-                    : [
+                test: [/\.tsx?$/, /\.ts?$/],
+                use: [
                           "babel-loader",
                           "ts-loader"
                       ]
@@ -87,6 +90,7 @@ module.exports = {
             // css
             {
                 test: [/\.pcss$/, /\.css$/],
+                
                 use: ExtractTextPlugin.extract({
                     fallback: "style-loader",
                     use: [
@@ -128,6 +132,9 @@ module.exports = {
             filename: "[name].css",
             chunkFilename: "[id].css"
         }),
+        new BundleAnalyzerPlugin({
+            disable: !isProduction
+        })
         // new PurgecssPlugin({
         //     // Specify the locations of any files you want to scan for class names.
         //     paths: glob.sync([
@@ -160,3 +167,4 @@ module.exports = {
         net: "empty"
     }
 };
+
