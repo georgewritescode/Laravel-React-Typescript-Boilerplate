@@ -9,7 +9,6 @@ An opinionated boilerplate based on Laravel 5.7, React 16 and Typescript empower
 * [Typescript](https://www.typescriptlang.org/)
 * [Webpack 4](https://webpack.js.org/concepts/)
 * [React Router 4](https://reacttraining.com/react-router/web/guides/philosophy)
-* [Mobx & Mobx React](https://github.com/mobxjs/mobx-react)
 * [Axios](https://github.com/axios/axios)
 * [Lodash](https://lodash.com/docs/4.17.10)
 * [PostCSS](https://github.com/postcss/postcss)
@@ -21,7 +20,10 @@ An opinionated boilerplate based on Laravel 5.7, React 16 and Typescript empower
 * [Log Viewer - viewable at /log-viewer (protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 * Admin Middleware (See Below)
 
-![](https://i.imgur.com/lgkhnc2.jpg)
+Note: MobX has been taken out to favor using React's context API and hooks.
+
+
+![](https://i.imgur.com/YdAk3NK.jpg)
 
 ## Notes:
 #### Admin Middleware

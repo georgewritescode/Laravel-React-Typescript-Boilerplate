@@ -34,6 +34,7 @@ module.exports = {
         alias: {
             app: path.resolve(__dirname, "frontend/"),
             components: path.resolve(__dirname, "frontend/components/"),
+            contexts: path.resolve(__dirname, "frontend/contexts/"),
             types: path.resolve(__dirname, "frontend/types/")
         }
     },

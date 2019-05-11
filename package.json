@@ -9,6 +9,7 @@
     "devDependencies": {
         "@babel/core": "^7.0.0-beta.52",
         "@babel/plugin-proposal-decorators": "^7.0.0-beta.54",
+        "@types/extract-text-webpack-plugin": "^3.0.3",
         "@babel/preset-env": "^7.0.0-beta.52",
         "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
         "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
@@ -61,7 +62,6 @@
         "webpack-hot-middleware": "^2.21.1"
     },
     "dependencies": {
-        "@types/extract-text-webpack-plugin": "^3.0.3",
         "axios": "^0.18.0",
         "classnames": "^2.2.5",
         "emotion": "^9.2.5",
