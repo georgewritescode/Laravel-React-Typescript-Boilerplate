@@ -4,7 +4,7 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 
 ## Included:
 * Laravel 5.8
-* React 16.*
+* React 16
 * Hot Module Reloading (npm run dev)
 * [Typescript](https://www.typescriptlang.org/)
 * [Webpack 4](https://webpack.js.org/concepts/)
@@ -50,7 +50,7 @@ Frontend files are placed in /frontend rather than:
 
 I think this makes more sense when your application is more frontend/javascript heavy than mere jquery sprinkled over blade views.
 
-## Scripts
+## Use
 #### Hot Module Reloading and Development:
 ``` npm run dev ```
 
