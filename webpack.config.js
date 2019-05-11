@@ -133,15 +133,15 @@ module.exports = {
             chunkFilename: "[id].css"
         }),
         new BundleAnalyzerPlugin({
-            disable: !isProduction
+            analyzerMode: (isProduction ? "server" : "disabled"),
+        }),
+        new PurgecssPlugin({
+            // Specify the locations of any files you want to scan for class names.
+            paths: glob.sync([
+                path.join(__dirname, "resources/views/**/*.blade.php"),
+                path.join(__dirname, "frontend/**/*.*"),
+            ])
         })
-        // new PurgecssPlugin({
-        //     // Specify the locations of any files you want to scan for class names.
-        //     paths: glob.sync([
-        //         path.join(__dirname, "resources/views/**/*.blade.php"),
-        //         path.join(__dirname, "frontend/**/*.*"),
-        //     ])
-        // })
     ],
     devServer: {
         contentBase: sourcePath,

@@ -12,6 +12,7 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 * [Axios](https://github.com/axios/axios)
 * [Lodash (lodash-es)](https://lodash.com/docs/4.17.10)
 * [PostCSS](https://github.com/postcss/postcss)
+* [PurgeCSS](https://github.com/FullHuman/purgecss)
 * [TailwindCSS](https://tailwindcss.com/docs/what-is-tailwind/)
 * [Ant Design](https://ant.design/docs/react/introduce)
 * [FontAwesome 5](http://fontawesome.io/icons/)
@@ -56,11 +57,6 @@ I think this makes more sense when your application is more frontend/javascript 
 #### Production Development:
 ``` npm run production ```
 To use your built files you must set your Larave APP_ENV to production.
-
-## Work in Progress
-If you fix these, submitting a PR or Issue with the code would be appreciated.
-* Purge CSS or UnCSS integration, I have made a start on Purge CSS.
-    * This must take into account Ant Design which is imported via .babelrc.
 
 ## Credits
 To all the contributors to the software used.
