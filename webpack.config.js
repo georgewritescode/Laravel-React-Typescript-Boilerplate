@@ -22,7 +22,7 @@ module.exports = {
     entry: {
         main: ["./app.tsx"]
     }, optimization: {
-        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+        minimizer: isProduction ? [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})] : [],
       },
     output: {
         path: outPath,
