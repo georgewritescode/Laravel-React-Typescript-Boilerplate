@@ -1,11 +1,12 @@
 # Laravel React Typescript Boilerplate
 
-An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empowering you to get off the ground quickly without excessive fiddling with npm, webpack and laravel configuration files. Do you need everything listed below? Likely not. However, I've always found that it is a lot easier to remove things or not use things compared to adding and configuring them to work with everything else (especially specific webpack versions). 
+An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empowering you to get off the ground quickly without spending time on configuration. 
 
 ## Included:
 * Laravel 5.8
 * React 16
 * Hot Module Reloading (npm run dev)
+* Admin Middleware (See Below)
 * [Typescript](https://www.typescriptlang.org/)
 * [Webpack 4](https://webpack.js.org/concepts/)
 * [React Router 4](https://reacttraining.com/react-router/web/guides/philosophy)
@@ -18,15 +19,22 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 * [FontAwesome 5](http://fontawesome.io/icons/)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
 * [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
-* [Log Viewer - viewable at /log-viewer (protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
-* Admin Middleware (See Below)
-
-Note: MobX has been taken out to favor using React's context API and hooks.
-
+* [Log Viewer - Viewable at /log-viewer (Protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 
 ![](https://i.imgur.com/YdAk3NK.jpg)
 
-## Notes:
+## Documentation
+
+#### Frontend Files
+Frontend JS & CSS files are placed in ``` /frontend ```.
+
+#### Hot Module Reloading and Development:
+``` npm run dev ```
+
+#### Production Development:
+``` npm run production ```
+
+To use production built files, set Laravel APP_ENV to production.
 #### Admin Middleware
 
 In config/auth.php add the emails of 'Admins' to the admins array.
@@ -42,28 +50,8 @@ The admin middleware file is located at:
 App\Http\Middleware\Admin
 ```
 
-#### Frontend Files
-Frontend files are placed in /frontend rather than:
-
-/resources/assets/js, and
-/resources/assets/sass
-
-I think this makes more sense when your application is more frontend/javascript heavy than mere jquery sprinkled over blade views.
-
-## Use
-#### Hot Module Reloading and Development:
-``` npm run dev ```
-
-#### Production Development:
-``` npm run production ```
-To use your built files you must set your Larave APP_ENV to production.
-
-## Credits
-To all the contributors to the software used.
-
-[My personal Twitter](https://twitter.com/grmcameron). 
-
-Feel free to tweet me with suggestions.
+## Contact
+[George's Twitter](https://twitter.com/grmcameron)
 
 ## License
 #### MIT License:
