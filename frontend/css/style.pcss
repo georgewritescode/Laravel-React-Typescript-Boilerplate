@@ -1,4 +1,4 @@
-@import "tailwindcss/preflight";
+@import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import './variables.pcss';
@@ -12,4 +12,15 @@ h1,h2,h3,h4,h5 {
 	font-family: "Merriweather", serif;
 }
 
-
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600;
+}

@@ -24,16 +24,18 @@ export const Page: React.FC<IProps> = () => {
         <div className={css(`padding: 12rem`)}>
             <h1>Laravel React Typescript Boilerplate</h1>
 
-            <a href="https://twitter.com/grmcameron" target="_blank">
-                <h4>by {user.name} - https://twitter.com/grmcameron</h4>
-            </a>
+            <p>
+                by {user.name} - <a href="https://twitter.com/grmcameron" target="_blank">
+                    https://twitter.com/grmcameron
+                </a>
+            </p>
 
-            <div className={"bg-blue-dark text-white p-4 mt-4"}>
+            <div className={"bg-blue-600 text-white p-4 mt-4"}>
                 <p>
                     If you are seeing this then you have successfully
                     installed the boilerplate.
                 </p>
             </div>
-        </div>
+        </div >
     );
 }
