@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name') }}</title>
+
+    @include('components.loader-css')
+    
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Lato" rel="stylesheet" />
     @env('production')
     <link rel="stylesheet" type="text/css" href="dist/styles.css" />
