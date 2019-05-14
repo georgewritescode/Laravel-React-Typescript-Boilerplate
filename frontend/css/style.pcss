@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import './variables.pcss';
-@import './components/loader.pcss'
 
 body {
 	font-family: "Lato", sans-serif;
@@ -14,14 +13,14 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  @apply text-2xl;
+  @extend .text-2xl;
 }
 h2 {
-  @apply text-xl;
+  @extend .text-xl;
 }
 h3 {
-  @apply text-lg;
+  @extend .text-lg;
 }
 a {
-  @apply text-blue-600;
+  @extend .text-blue-600;
 }

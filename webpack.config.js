@@ -107,6 +107,7 @@ module.exports = {
                                     require('postcss-nested')(),
                                     require("postcss-cssnext")(),
                                     require("tailwindcss")("./tailwind.js"),
+                                    require('postcss-extend')(),
                                     require("postcss-reporter")({
                                         clearReportedMessages: true
                                     })
