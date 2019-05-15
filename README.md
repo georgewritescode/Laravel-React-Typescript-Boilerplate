@@ -19,7 +19,9 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 * [FontAwesome 5](http://fontawesome.io/icons/)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
 * [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
-* [Log Viewer - Viewable at /log-viewer (Protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
+* [Log Viewer - /log-viewer (Protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
+* [Laravel Telescope](https://laravel.com/docs/5.8/telescope)
+
 
 ![](https://i.imgur.com/YdAk3NK.jpg)
 
