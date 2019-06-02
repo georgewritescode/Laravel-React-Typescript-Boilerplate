@@ -31,6 +31,13 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 Frontend JS & CSS files are placed in ``` /frontend ```.
 
 #### Hot Module Reloading and Development:
+First, allow insecure certs from localhost (for development).
+In Chrome, go to this url and Enable Insecure Certs from Localhost:
+
+``` chrome://flags/#allow-insecure-localhost ```
+
+Run HMR:
+
 ``` npm run dev ```
 
 #### Production Development:
