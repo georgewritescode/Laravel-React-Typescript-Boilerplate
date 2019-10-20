@@ -15,6 +15,7 @@ An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empower
 * [PostCSS](https://github.com/postcss/postcss)
 * [PurgeCSS](https://github.com/FullHuman/purgecss)
 * [TailwindCSS](https://tailwindcss.com/docs/what-is-tailwind/)
+* [Tailwind Forms Plugin](https://tailwindcss-custom-forms.netlify.com/)
 * [Ant Design](https://ant.design/docs/react/introduce)
 * [FontAwesome 5](http://fontawesome.io/icons/)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
