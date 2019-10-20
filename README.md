@@ -1,9 +1,9 @@
 # Laravel React Typescript Boilerplate
 
-An opinionated boilerplate based on Laravel 5.8, React 16 and Typescript empowering you to get off the ground quickly without spending time on configuration. 
+An opinionated boilerplate based on Laravel 6.*, React 16 and Typescript empowering you to get off the ground quickly without spending time on configuration. 
 
 ## Included:
-* Laravel 5.8
+* Laravel 6.*
 * React 16
 * Hot Module Reloading (npm run dev)
 * Admin Middleware (See Below)

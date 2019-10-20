@@ -2,6 +2,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "webpack-dev-server --disable-host-check --mode development --hot --progress --colors",
+        "watch": "./node_modules/.bin/webpack --watch --watch-poll=1000 --mode development --progress --hide-modules ",
         "production": "./node_modules/.bin/webpack -p --mode production --progress --colors",
         "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
     },
@@ -38,7 +39,7 @@
         "less": "^3.7.1",
         "less-loader": "^4.1.0",
         "mini-css-extract-plugin": "^0.4.1",
-        "node-sass": "^4.9.2",
+        "node-sass": "^4.12.0",
         "optimize-css-assets-webpack-plugin": "^5.0.1",
         "postcss": "^6.0.19",
         "postcss-apply": "^0.12.0",
@@ -69,6 +70,7 @@
         "webpack-hot-middleware": "^2.21.1"
     },
     "dependencies": {
+        "@tailwindcss/custom-forms": "^0.2.1",
         "axios": "^0.18.0",
         "classnames": "^2.2.5",
         "emotion": "^9.2.5",
