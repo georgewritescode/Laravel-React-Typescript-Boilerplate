@@ -1,9 +1,9 @@
 # Laravel React Typescript Boilerplate
 
-An opinionated boilerplate based on Laravel 6.*, React 16 and Typescript empowering you to get off the ground quickly without spending time on configuration. 
+An opinionated boilerplate based on Laravel 7.*, React 16 and Typescript empowering you to get off the ground quickly without spending time on configuration. 
 
 ## Included:
-* Laravel 6.*
+* Laravel 7.*
 * React 16
 * Hot Module Reloading (npm run dev)
 * Admin Middleware (See Below)
@@ -19,10 +19,10 @@ An opinionated boilerplate based on Laravel 6.*, React 16 and Typescript empower
 * [Ant Design](https://ant.design/docs/react/introduce)
 * [FontAwesome 5](http://fontawesome.io/icons/)
 * [Emotion CSS-in-JS Library](https://emotion.sh/docs/introduction)
+* [Debugbar](https://github.com/barryvdh/laravel-debugbar)
 * [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 * [Log Viewer - /log-viewer (Protected by admin middleware)](https://github.com/ARCANEDEV/LogViewer)
 * [Laravel Telescope](https://laravel.com/docs/5.8/telescope)
-
 
 ![](https://i.imgur.com/YdAk3NK.jpg)
 
