@@ -71,7 +71,7 @@
     },
     "dependencies": {
         "@tailwindcss/custom-forms": "^0.2.1",
-        "axios": "^0.18.1",
+        "axios": "^0.21.1",
         "classnames": "^2.2.5",
         "emotion": "^9.2.12",
         "lodash-es": "^4.17.15",
