@@ -11,7 +11,7 @@
         "php": "^7.3",
         "arcanedev/log-viewer": "^8.0",
         "fideloper/proxy": "~4.0",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.40.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/helpers": "^1.1",
         "laravel/telescope": "^4.0",
