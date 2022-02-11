@@ -39,7 +39,7 @@
         "less": "^3.12.2",
         "less-loader": "^4.1.0",
         "mini-css-extract-plugin": "^0.4.5",
-        "node-sass": "^4.14.1",
+        "node-sass": "^7.0.0",
         "optimize-css-assets-webpack-plugin": "^5.0.4",
         "postcss": "^6.0.19",
         "postcss-apply": "^0.12.0",
