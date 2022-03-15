@@ -74,7 +74,7 @@
         "axios": "^0.21.1",
         "classnames": "^2.2.5",
         "emotion": "^9.2.12",
-        "lodash-es": "^4.17.15",
+        "lodash-es": "^4.17.21",
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
         "react-router": "^4.2.0",
