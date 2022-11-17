@@ -32,7 +32,7 @@
         "babel-plugin-import": "^1.13.1",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "css-loader": "^0.28.11",
-        "error-overlay-webpack-plugin": "^0.1.7",
+        "error-overlay-webpack-plugin": "^1.1.1",
         "extract-text-webpack-plugin": "^4.0.0-beta.0",
         "file-loader": "^1.1.11",
         "glob-all": "^3.2.1",
